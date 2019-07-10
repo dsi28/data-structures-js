@@ -29,6 +29,7 @@ class Stack{
         }else{
             let current = this.top;
             this.top = current.next;
+            this.count--;
             return current;
         }
     }
